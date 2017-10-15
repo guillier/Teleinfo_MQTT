@@ -15,4 +15,4 @@ Hardware used :
 
 The python OTA helper can be used to upgrade the software on the ESP8266
 
-Corresponding blog entry: http://www.guillier.org/blog/2017/xxxxxxx
+Corresponding blog entry: http://www.guillier.org/blog/2017/10/teleinfo-with-wifi-on-the-linky/
