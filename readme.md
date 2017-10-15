@@ -10,5 +10,9 @@ Hardware used :
 
 ![Schematics](teleinfo-esp8266_bb.png)
 
+* Version "Historique" (i.e. compatible with older meters) only for the moment
+* Version "Standard" (a.k.a new Linky version) to be written 
+
+The python OTA helper can be used to upgrade the software on the ESP8266
 
 Corresponding blog entry: http://www.guillier.org/blog/2017/xxxxxxx
