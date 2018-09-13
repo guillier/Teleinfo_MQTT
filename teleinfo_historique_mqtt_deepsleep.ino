@@ -153,11 +153,13 @@ void publish (String topic, String payload)
 void publish_value(String sn, String name, String value, bool number=false)
 {
     if (value != "")
+    {
         if (number)
             value = String(value.toInt()); // Double convertion to remove leading zeros etc...
         else
             value = "\"" + value + "\"";
         publish("cm/teleinfo-" + sn + "/data/" + name, "{\"value\": " + value + "}");
+    }
 }
 
 void loop()
